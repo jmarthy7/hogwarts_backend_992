@@ -1,6 +1,6 @@
 services:
   db:
-    image: mysql:8.0
+    image: ghcr.io/jmarthy7/hogwarts_backend_991:latest
     container_name: MySQL_jmb
     restart: always
     environment:
